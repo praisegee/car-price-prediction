@@ -10,7 +10,7 @@ from flask import Flask, render_template, request
 # instanciate flask object
 app = Flask(__name__)
 # load the trained model from pickle file
-# model = pickle.load()
+# model = pickle.load("models/gradient_model.pkl")
 
 
 @app.route("/", methods=["GET"])
